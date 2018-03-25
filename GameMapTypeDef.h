@@ -8,6 +8,5 @@ using namespace std;
 
 typedef multimap<string, string> LoadedMap;
 typedef multimap<string, string>::iterator MapIterator;
-typedef multimap<string, string> territoryIDs;
 
 #endif
