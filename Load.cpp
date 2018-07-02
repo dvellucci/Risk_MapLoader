@@ -2,7 +2,7 @@
 
 Load::Load()
 {
-	if (!mapTexture.loadFromFile("World.png"))
+	if (!mapTexture.loadFromFile("World.bmp"))
 	{
 		// error...
 	}

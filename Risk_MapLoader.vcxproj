@@ -68,14 +68,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameController.cpp" />
     <ClCompile Include="Load.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FloodFill.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameController.h" />
     <ClInclude Include="GameMapTypeDef.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStates.h" />
     <ClInclude Include="Load.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="SFML_Includes.h" />
